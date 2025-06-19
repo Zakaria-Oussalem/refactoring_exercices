@@ -221,12 +221,12 @@ if __name__ == "__main__":
     main(fetched_cart, fetched_user, payment_method)
 
 # what was done right ?
-# ✅ The code is modular and uses dataclasses for item representation.
-# ✅ It handles different item types and payment methods effectively.
-# ✅ It raises appropriate exceptions for errors, allowing for graceful error handling.
-# ✅ It uses Pydantic for user data validation, ensuring that user data is correctly formatted.
-# ✅ The use of enums for item types and payment methods improves code readability and maintainability.
-# ✅ Leverages polymorphism to handle different item types uniformly.
+# ✅ Moodularity and using dataclasses for item representation.
+# ✅ Handle different item types and payment methods effectively.
+# ✅ Raise appropriate exceptions for errors, allowing for graceful error handling.
+# ✅ Use Pydantic for user data validation, ensuring that user data is correctly formatted.
+# ✅ Use enums for item types and payment methods improves code readability and maintainability.
+# ✅ Leverage polymorphism to handle different item types uniformly.
 
 
 # next step: Seperate all this code into different files
