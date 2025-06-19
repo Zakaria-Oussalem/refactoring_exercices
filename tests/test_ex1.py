@@ -23,7 +23,7 @@ EXPECTED_OUTPUT = [
     "Positive: nice work",
 ]
 
-
+# it will fail, find the bug
 def test_process_feedback():
     result = exercise(FEEDBACK_LIST)
     assert result == EXPECTED_OUTPUT
